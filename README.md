@@ -2,7 +2,8 @@
 
 Scripts automatizados para aplicar hardening en servidores Linux siguiendo buenas prácticas de seguridad.
 
-![image](https://github.com/user-attachments/assets/9f0bee7f-4e5a-4e8b-8406-5a38934a09be)
+![9b0e3126-7453-4913-976f-64e0bb27d2a5](https://github.com/user-attachments/assets/bf65c524-26e2-4876-925a-f97738b00f17)
+
 
 🔐 Incluye: creación de usuario sudo, configuración de firewall, Fail2ban, hardening SSH y SELinux.
 
