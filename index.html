@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linux Hardening Scripts | Zelmar Mohozzo - Code Society</title>
-    <meta name="description" content="Scripts de hardening automático para servidores Linux desarrollados por Zelmar Mohozzo en Code Society">
+    <title>Linux Hardening Suite | Zelmar Mohozzo - Cybersecurity Specialist</title>
+    <meta name="description" content="Suite de scripts de hardening automático para servidores Linux desarrollada por Zelmar Mohozzo, especialista en ciberseguridad">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
     <div class="terminal-bg">
         <div class="code-lines">
             <div class="line">#!/bin/bash</div>
-            <div class="line"># Linux Hardening Scripts</div>
+            <div class="line"># Linux Hardening Suite</div>
             <div class="line">echo "Securing server..."</div>
             <div class="line">./01-setup-user.sh</div>
             <div class="line">./02-firewall.sh</div>
@@ -26,166 +26,232 @@
         </div>
     </div>
 
-    <!-- Header Terminal -->
-    <header class="terminal-header">
-        <div class="terminal-window">
-            <div class="terminal-controls">
-                <span class="control red"></span>
-                <span class="control yellow"></span>
-                <span class="control green"></span>
+    <!-- Header Redesigned -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-grid">
+                <!-- Left Column: Author Info -->
+                <div class="author-column">
+                    <div class="author-info">
+                        <h1 class="author-name">Zelmar Mohozzo</h1>
+                        <p class="author-role">Cybersecurity Specialist & Developer</p>
+                        <div class="author-badges">
+                            <span class="badge">🔐 Security Expert</span>
+                            <span class="badge">💻 Code Society</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Project Info -->
+                <div class="project-column">
+                    <div class="project-header">
+                        <div class="project-title-section">
+                            <div class="shield-icon">🛡️</div>
+                            <h2 class="project-title">Linux Hardening Suite</h2>
+                        </div>
+                        <p class="project-subtitle">Scripts de hardening automático para servidores Linux</p>
+                        
+                        <!-- Linux Distributions Support -->
+                        <div class="distro-support">
+                            <span class="support-label">Distribuciones soportadas:</span>
+                            <div class="distro-icons">
+                                <img src="./assets/descarga (3).png" alt="Ubuntu" class="distro-icon" title="Ubuntu">
+                                <img src="./assets/descarga (1).png" alt="Debian" class="distro-icon" title="Debian">
+                                <img src="./assets/descarga (5).png" alt="CentOS" class="distro-icon" title="CentOS">
+                                <img src="./assets/descarga (6).png" alt="Fedora" class="distro-icon" title="Fedora">
+                                <img src="./assets/descarga (2).png" alt="Kali Linux" class="distro-icon" title="Kali Linux">
+                                <div class="linux-penguin">🐧</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="terminal-title">zelmar@security:~/linux-hardening-scripts</div>
-        </div>
-        <div class="command-line">
-            <span class="prompt">$</span>
-            <span class="command typewriter">./hardening-complete.sh --secure-all</span>
-            <span class="cursor">_</span>
         </div>
     </header>
 
+    <!-- Navigation Menu -->
+    <nav class="terminal-nav">
+        <div class="container">
+            <div class="nav-terminal">
+                <div class="nav-prompt">
+                    <span class="prompt">zelmar@security</span>
+                    <span class="path">:~/linux-hardening-suite</span>
+                    <span class="dollar">$</span>
+                </div>
+                <div class="nav-menu">
+                    <a href="#about" class="nav-link">./about.sh</a>
+                    <a href="#importance" class="nav-link">./security-info.sh</a>
+                    <a href="#scripts" class="nav-link">./view-scripts.sh</a>
+                    <a href="#distributions" class="nav-link">./compatibility.sh</a>
+                    <a href="#preview" class="nav-link">./demo.sh</a>
+                    <a href="#links" class="nav-link">./resources.sh</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <!-- Main Content -->
     <main class="container">
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-content">
-                <h1 class="glitch-text" data-text="Linux Hardening Scripts">
-                    Linux Hardening Scripts
-                </h1>
-                <p class="hero-subtitle">
-                    Scripts de hardening automático para servidores Linux
-                </p>
-                <div class="hero-badges">
-                    <span class="badge">🐧 Linux</span>
-                    <span class="badge">🛡️ SELinux</span>
-                    <span class="badge">🔐 SSH</span>
-                    <span class="badge">🔥 Firewall</span>
-                    <span class="badge">🚫 Fail2Ban</span>
-                    <span class="badge">🐍 Python</span>
-                    <span class="badge">💻 Bash</span>
+        <!-- About Section -->
+        <section id="about" class="terminal-frame">
+            <div class="frame-header">
+                <div class="frame-controls">
+                    <span class="control red"></span>
+                    <span class="control yellow"></span>
+                    <span class="control green"></span>
+                </div>
+                <div class="frame-title">about.sh - Información del Proyecto</div>
+            </div>
+            <div class="frame-content">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2>👋 Sobre el Proyecto</h2>
+                        <p class="intro-text">
+                            <span class="highlight">Linux Hardening Suite</span> es una colección de scripts modulares 
+                            desarrollados durante mi tiempo en <span class="highlight">Code Society</span> para automatizar 
+                            la implementación de mejores prácticas de ciberseguridad en servidores Linux.
+                        </p>
+                        <div class="features-list">
+                            <div class="feature-item">
+                                <span class="feature-icon">👤</span>
+                                <span>Configuración segura de usuarios y permisos</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🔥</span>
+                                <span>Firewall automático con UFW/iptables</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🚫</span>
+                                <span>Fail2ban contra ataques de fuerza bruta</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🔐</span>
+                                <span>SSH hardening con configuración avanzada</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🛡️</span>
+                                <span>SELinux en modo enforcing</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="author-card">
+                            <img src="./assets/1751334784723.jpeg" alt="Zelmar Mohozzo" class="profile-img">
+                            <div class="status-indicator"></div>
+                            <div class="author-details">
+                                <h3>Zelmar Mohozzo</h3>
+                                <p>Especialista en Ciberseguridad</p>
+                                <p class="company">Code Society</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Tux Linux Image - Simple -->
+                        <img src="./assets/Tux-Linux.gif" alt="Tux - Linux Mascot" class="tux-simple">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Repository Info -->
-        <section class="repo-info">
-            <div class="repo-card">
-                <div class="repo-header">
-                    <div class="repo-title">
-                        <h2>🛡️ Scripts de Hardening Automático para Servidores Linux</h2>
-                        <p>Colección de scripts modulares para automatizar mejores prácticas de ciberseguridad en servidores Linux</p>
-                    </div>
-                    <div class="repo-stats">
-                        <div class="stat-item">
-                            <span class="stat-icon">⭐</span>
-                            <span class="stat-value">247</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-icon">🍴</span>
-                            <span class="stat-value">58</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-icon">👁️</span>
-                            <span class="stat-value">1.2k</span>
-                        </div>
-                    </div>
+        <!-- Importance Section -->
+        <section id="importance" class="terminal-frame importance-section">
+            <div class="frame-header">
+                <div class="frame-controls">
+                    <span class="control red"></span>
+                    <span class="control yellow"></span>
+                    <span class="control green"></span>
                 </div>
-                <div class="repo-meta">
-                    <div class="meta-item">
-                        <span class="meta-icon">👤</span>
-                        <span>Zelmar Mohozzo</span>
-                    </div>
-                    <div class="meta-item">
-                        <span class="meta-icon">🏢</span>
-                        <span>Code Society</span>
-                    </div>
-                    <div class="meta-item">
-                        <span class="meta-icon">🧪</span>
-                        <span>Testing Interno</span>
-                    </div>
-                </div>
+                <div class="frame-title">security-info.sh - Importancia del Hardening</div>
             </div>
-        </section>
-
-        <!-- Author Section -->
-        <section class="author-section">
-            <div class="author-card">
-                <div class="author-image">
-                    <img src="./assets/1751334784723.jpeg" alt="Zelmar Mohozzo" class="profile-img">
-                    <div class="status-indicator"></div>
-                </div>
-                <div class="author-info">
-                    <h2>👋 Soy Zelmar Mohozzo</h2>
-                    <p class="author-title">Desarrollador y Especialista en Ciberseguridad</p>
-                    <p class="author-description">
-                        Este proyecto fue creado durante mi tiempo en <span class="highlight">Code Society</span> 
-                        para fortalecer servidores Linux automáticamente. Scripts desarrollados para testing 
-                        y hardening de entornos internos de desarrollo y producción.
-                    </p>
-                    <div class="author-links">
-                        <a href="https://github.com/ZelmarMohozzo/linux-hardening-scripts" class="link-btn github">
-                            <span class="icon">🔗</span>
-                            Ver en GitHub
-                        </a>
-                        <a href="https://github.com/ZelmarMohozzo" class="link-btn profile">
-                            <span class="icon">🧠</span>
-                            Otros proyectos
-                        </a>
-                        <a href="https://www.example.com" class="link-btn portfolio">
-                            <span class="icon">🌐</span>
-                            Portafolio completo
-                        </a>
+            <div class="frame-content">
+                <div class="importance-content">
+                    <h2 class="glitch-title" data-text="Un servidor sin hardening es una puerta abierta a los atacantes">
+                        Un servidor sin hardening es una puerta abierta a los atacantes
+                    </h2>
+                    <div class="security-points">
+                        <div class="security-point">
+                            <div class="point-icon">🎯</div>
+                            <div class="point-content">
+                                <h4>Reduce superficie de ataque</h4>
+                                <p>Elimina servicios innecesarios y cierra puertos no utilizados, minimizando los vectores de entrada para atacantes.</p>
+                            </div>
+                        </div>
+                        <div class="security-point">
+                            <div class="point-icon">🚪</div>
+                            <div class="point-content">
+                                <h4>Previene accesos no autorizados</h4>
+                                <p>Implementa autenticación robusta, políticas de contraseñas y control de acceso granular.</p>
+                            </div>
+                        </div>
+                        <div class="security-point">
+                            <div class="point-icon">📋</div>
+                            <div class="point-content">
+                                <h4>Alinea con normativas de seguridad</h4>
+                                <p>Cumple con estándares como CIS Benchmarks, NIST y otras regulaciones de ciberseguridad.</p>
+                            </div>
+                        </div>
+                        <div class="security-point">
+                            <div class="point-icon">🔍</div>
+                            <div class="point-content">
+                                <h4>Mejora monitoreo y auditoría</h4>
+                                <p>Habilita logging detallado y herramientas de detección de intrusiones para visibilidad completa.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Scripts Section -->
-        <section class="scripts-section">
-            <div class="scripts-header">
-                <h2>📜 Scripts Disponibles</h2>
-                <p>Scripts modulares listos para ejecutar como parte de un proceso CI/CD o scripts de provisionamiento</p>
-            </div>
-            
-            <div class="scripts-container">
-                <div class="scripts-nav">
-                    <h3>Scripts de Hardening</h3>
-                    <div class="script-list">
-                        <button class="script-btn active" data-script="01-setup-user">
-                            <span class="script-icon">👤</span>
-                            <span class="script-name">01-setup-user.sh</span>
-                        </button>
-                        <button class="script-btn" data-script="02-firewall">
-                            <span class="script-icon">🔥</span>
-                            <span class="script-name">02-firewall.sh</span>
-                        </button>
-                        <button class="script-btn" data-script="03-fail2ban">
-                            <span class="script-icon">🚫</span>
-                            <span class="script-name">03-fail2ban.sh</span>
-                        </button>
-                        <button class="script-btn" data-script="04-ssh-hardening">
-                            <span class="script-icon">🔐</span>
-                            <span class="script-name">04-ssh-hardening.sh</span>
-                        </button>
-                        <button class="script-btn" data-script="05-selinux">
-                            <span class="script-icon">🛡️</span>
-                            <span class="script-name">05-selinux.sh</span>
-                        </button>
-                    </div>
+        <section id="scripts" class="terminal-frame">
+            <div class="frame-header">
+                <div class="frame-controls">
+                    <span class="control red"></span>
+                    <span class="control yellow"></span>
+                    <span class="control green"></span>
                 </div>
-                
-                <div class="script-viewer">
-                    <div class="script-header">
-                        <div class="script-title">
-                            <span class="script-current-icon">👤</span>
-                            <span class="script-current-name">01-setup-user.sh</span>
+                <div class="frame-title">view-scripts.sh - Scripts Disponibles</div>
+            </div>
+            <div class="frame-content">
+                <div class="scripts-container">
+                    <div class="scripts-nav">
+                        <h3>Scripts de Hardening</h3>
+                        <div class="script-list">
+                            <button class="script-btn active" data-script="01-setup-user">
+                                <span class="script-icon">👤</span>
+                                <span class="script-name">01-setup-user.sh</span>
+                            </button>
+                            <button class="script-btn" data-script="02-firewall">
+                                <span class="script-icon">🔥</span>
+                                <span class="script-name">02-firewall.sh</span>
+                            </button>
+                            <button class="script-btn" data-script="03-fail2ban">
+                                <span class="script-icon">🚫</span>
+                                <span class="script-name">03-fail2ban.sh</span>
+                            </button>
+                            <button class="script-btn" data-script="04-ssh-hardening">
+                                <span class="script-icon">🔐</span>
+                                <span class="script-name">04-ssh-hardening.sh</span>
+                            </button>
+                            <button class="script-btn" data-script="05-selinux">
+                                <span class="script-icon">🛡️</span>
+                                <span class="script-name">05-selinux.sh</span>
+                            </button>
                         </div>
-                        <button class="copy-btn" onclick="copyScript()">
-                            <span class="copy-icon">📋</span>
-                            Copiar código
-                        </button>
                     </div>
-                    <div class="script-content">
-                        <pre class="script-code" id="script-display">
+                    
+                    <div class="script-viewer">
+                        <div class="script-header">
+                            <div class="script-title">
+                                <span class="script-current-icon">👤</span>
+                                <span class="script-current-name">01-setup-user.sh</span>
+                            </div>
+                            <button class="copy-btn" onclick="copyScript()">
+                                <span class="copy-icon">📋</span>
+                                Copiar código
+                            </button>
+                        </div>
+                        <div class="script-content">
+                            <pre class="script-code" id="script-display">
 <code>#!/bin/bash
 # Script de Hardening - Configuración de Usuario Seguro
 # Autor: Zelmar Mohozzo - Code Society
@@ -243,196 +309,220 @@ log "✓ Usuario $NEW_USER creado con permisos sudo"
 log "✓ Acceso root remoto deshabilitado"
 
 exit 0</code>
-                        </pre>
+                            </pre>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Distributions Section -->
-        <section class="distributions-section">
-            <div class="distributions-header">
-                <h2>🐧 Distribuciones Linux Compatibles</h2>
-                <p>Scripts probados y optimizados para las principales distribuciones Linux</p>
+        <section id="distributions" class="terminal-frame">
+            <div class="frame-header">
+                <div class="frame-controls">
+                    <span class="control red"></span>
+                    <span class="control yellow"></span>
+                    <span class="control green"></span>
+                </div>
+                <div class="frame-title">compatibility.sh - Distribuciones Compatibles</div>
             </div>
-            
-            <div class="distributions-grid">
-                <div class="distro-card ubuntu">
-                    <div class="distro-icon">
-                        <svg viewBox="0 0 100 100" class="distro-logo">
-                            <circle cx="50" cy="50" r="45" fill="#E95420"/>
-                            <circle cx="50" cy="50" r="35" fill="none" stroke="white" stroke-width="2"/>
-                            <circle cx="50" cy="20" r="8" fill="white"/>
-                            <circle cx="20" cy="65" r="8" fill="white"/>
-                            <circle cx="80" cy="65" r="8" fill="white"/>
-                        </svg>
+            <div class="frame-content">
+                <div class="distributions-content">
+                    <h2>🐧 Distribuciones Linux Soportadas</h2>
+                    <p class="distributions-subtitle">Scripts probados y optimizados para las principales distribuciones Linux</p>
+                    
+                    <div class="distributions-grid">
+                        <div class="distro-card ubuntu">
+                            <div class="distro-icon-large">
+                                <img src="./assets/descarga (3).png" alt="Ubuntu" class="distro-logo">
+                            </div>
+                            <h3>Ubuntu</h3>
+                            <p>20.04 LTS, 22.04 LTS, 24.04 LTS</p>
+                            <div class="compatibility-badge">✅ Compatible</div>
+                        </div>
+                        
+                        <div class="distro-card debian">
+                            <div class="distro-icon-large">
+                                <img src="./assets/descarga (1).png" alt="Debian" class="distro-logo">
+                            </div>
+                            <h3>Debian</h3>
+                            <p>10 (Buster), 11 (Bullseye), 12 (Bookworm)</p>
+                            <div class="compatibility-badge">✅ Compatible</div>
+                        </div>
+                        
+                        <div class="distro-card centos">
+                            <div class="distro-icon-large">
+                                <img src="./assets/descarga (5).png" alt="CentOS" class="distro-logo">
+                            </div>
+                            <h3>CentOS</h3>
+                            <p>7, 8, Stream 9</p>
+                            <div class="compatibility-badge">✅ Compatible</div>
+                        </div>
+                        
+                        <div class="distro-card fedora">
+                            <div class="distro-icon-large">
+                                <img src="./assets/descarga (6).png" alt="Fedora" class="distro-logo">
+                            </div>
+                            <h3>Fedora</h3>
+                            <p>36, 37, 38, 39</p>
+                            <div class="compatibility-badge">✅ Compatible</div>
+                        </div>
+                        
+                        <div class="distro-card kali">
+                            <div class="distro-icon-large">
+                                <img src="./assets/descarga (2).png" alt="Kali Linux" class="distro-logo">
+                            </div>
+                            <h3>Kali Linux</h3>
+                            <p>Rolling Release, 2023.x</p>
+                            <div class="compatibility-badge">✅ Compatible</div>
+                        </div>
+                        
+                        <div class="distro-card linux-general">
+                            <div class="distro-icon-large">
+                                <div class="linux-penguin-large">🐧</div>
+                            </div>
+                            <h3>Linux General</h3>
+                            <p>Otras distribuciones basadas en Debian/RHEL</p>
+                            <div class="compatibility-badge">⚠️ Parcial</div>
+                        </div>
                     </div>
-                    <h3>Ubuntu</h3>
-                    <p>20.04 LTS, 22.04 LTS, 24.04 LTS</p>
-                    <div class="compatibility-badge">✅ Compatible</div>
-                </div>
-                
-                <div class="distro-card debian">
-                    <div class="distro-icon">
-                        <svg viewBox="0 0 100 100" class="distro-logo">
-                            <circle cx="50" cy="50" r="45" fill="#A81D33"/>
-                            <path d="M30 40 Q50 20 70 40 Q50 60 30 40" fill="white"/>
-                        </svg>
-                    </div>
-                    <h3>Debian</h3>
-                    <p>10 (Buster), 11 (Bullseye), 12 (Bookworm)</p>
-                    <div class="compatibility-badge">✅ Compatible</div>
-                </div>
-                
-                <div class="distro-card centos">
-                    <div class="distro-icon">
-                        <svg viewBox="0 0 100 100" class="distro-logo">
-                            <rect x="10" y="10" width="80" height="80" fill="#932279" rx="10"/>
-                            <text x="50" y="60" text-anchor="middle" fill="white" font-size="24" font-weight="bold">C</text>
-                        </svg>
-                    </div>
-                    <h3>CentOS</h3>
-                    <p>7, 8, Stream 9</p>
-                    <div class="compatibility-badge">✅ Compatible</div>
-                </div>
-                
-                <div class="distro-card redhat">
-                    <div class="distro-icon">
-                        <svg viewBox="0 0 100 100" class="distro-logo">
-                            <circle cx="50" cy="50" r="45" fill="#EE0000"/>
-                            <path d="M25 35 Q50 15 75 35 L75 65 Q50 85 25 65 Z" fill="white"/>
-                        </svg>
-                    </div>
-                    <h3>Red Hat</h3>
-                    <p>RHEL 7, 8, 9</p>
-                    <div class="compatibility-badge">✅ Compatible</div>
-                </div>
-                
-                <div class="distro-card arch">
-                    <div class="distro-icon">
-                        <svg viewBox="0 0 100 100" class="distro-logo">
-                            <circle cx="50" cy="50" r="45" fill="#1793D1"/>
-                            <path d="M50 20 L30 70 L70 70 Z" fill="white"/>
-                        </svg>
-                    </div>
-                    <h3>Arch Linux</h3>
-                    <p>Rolling Release</p>
-                    <div class="compatibility-badge">✅ Compatible</div>
-                </div>
-                
-                <div class="distro-card fedora">
-                    <div class="distro-icon">
-                        <svg viewBox="0 0 100 100" class="distro-logo">
-                            <circle cx="50" cy="50" r="45" fill="#294172"/>
-                            <path d="M30 30 Q50 10 70 30 Q70 50 50 70 Q30 50 30 30" fill="white"/>
-                        </svg>
-                    </div>
-                    <h3>Fedora</h3>
-                    <p>36, 37, 38, 39</p>
-                    <div class="compatibility-badge">✅ Compatible</div>
                 </div>
             </div>
         </section>
 
         <!-- Terminal Preview -->
-        <section class="terminal-preview">
-            <div class="preview-header">
-                <h2>🖥️ Preview de Ejecución</h2>
-                <p>Simulación de la ejecución de los scripts de hardening</p>
+        <section id="preview" class="terminal-frame">
+            <div class="frame-header">
+                <div class="frame-controls">
+                    <span class="control red"></span>
+                    <span class="control yellow"></span>
+                    <span class="control green"></span>
+                </div>
+                <div class="frame-title">demo.sh - Preview de Ejecución</div>
             </div>
-            
-            <div class="terminal-demo">
-                <div class="terminal-demo-header">
-                    <div class="demo-controls">
-                        <span class="control red"></span>
-                        <span class="control yellow"></span>
-                        <span class="control green"></span>
+            <div class="frame-content">
+                <div class="preview-content">
+                    <h2>🖥️ Simulación de Ejecución</h2>
+                    <p>Vista previa de cómo se ejecutan los scripts de hardening</p>
+                    
+                    <div class="terminal-demo">
+                        <div class="terminal-demo-header">
+                            <div class="demo-controls">
+                                <span class="control red"></span>
+                                <span class="control yellow"></span>
+                                <span class="control green"></span>
+                            </div>
+                            <div class="demo-title">root@server:~/linux-hardening-suite</div>
+                        </div>
+                        
+                        <div class="terminal-output">
+                            <div class="output-line">
+                                <span class="prompt-demo">root@server</span>
+                                <span class="path-demo">:~/linux-hardening-suite</span>
+                                <span class="dollar-demo"># ./hardening-complete.sh</span>
+                            </div>
+                            <div class="output-content">
+                                <div class="log-line info">[2025-01-15 10:30:15] INFO: Iniciando hardening completo del servidor...</div>
+                                <div class="log-line info">[2025-01-15 10:30:16] INFO: Ejecutando 01-setup-user.sh</div>
+                                <div class="log-line warning">[2025-01-15 10:30:17] WARNING: Configurando usuario seguro...</div>
+                                <div class="log-line success">[2025-01-15 10:30:18] INFO: ✓ Usuario admin creado con permisos sudo</div>
+                                <div class="log-line success">[2025-01-15 10:30:19] INFO: ✓ Acceso root remoto deshabilitado</div>
+                                <div class="log-line info">[2025-01-15 10:30:20] INFO: Ejecutando 02-firewall.sh</div>
+                                <div class="log-line success">[2025-01-15 10:30:21] INFO: ✓ UFW configurado con políticas restrictivas</div>
+                                <div class="log-line info">[2025-01-15 10:30:22] INFO: Ejecutando 03-fail2ban.sh</div>
+                                <div class="log-line success">[2025-01-15 10:30:25] INFO: ✓ Fail2ban instalado y configurado</div>
+                                <div class="log-line success">[2025-01-15 10:30:26] INFO: ✓ Protección SSH habilitada</div>
+                                <div class="log-line info">[2025-01-15 10:30:27] INFO: Ejecutando 04-ssh-hardening.sh</div>
+                                <div class="log-line warning">[2025-01-15 10:30:28] WARNING: Puerto SSH cambiado a 2222</div>
+                                <div class="log-line success">[2025-01-15 10:30:29] INFO: ✓ SSH hardening completado</div>
+                                <div class="log-line info">[2025-01-15 10:30:30] INFO: Ejecutando 05-selinux.sh</div>
+                                <div class="log-line success">[2025-01-15 10:30:33] INFO: ✓ SELinux configurado en modo enforcing</div>
+                                <div class="log-line final">[2025-01-15 10:30:34] SUCCESS: Hardening completo exitoso!</div>
+                                <div class="log-line warning">[2025-01-15 10:30:35] WARNING: Reinicio requerido para aplicar todos los cambios</div>
+                            </div>
+                            <div class="output-line">
+                                <span class="prompt-demo">root@server</span>
+                                <span class="path-demo">:~/linux-hardening-suite</span>
+                                <span class="dollar-demo"># </span>
+                                <span class="cursor-demo">_</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="demo-title">root@server:~/linux-hardening-scripts</div>
-                </div>
-                
-                <div class="terminal-output">
-                    <div class="output-line">
-                        <span class="prompt-demo">root@server</span>
-                        <span class="path-demo">:~/linux-hardening-scripts</span>
-                        <span class="dollar-demo"># ./hardening-complete.sh</span>
-                    </div>
-                    <div class="output-content">
-                        <div class="log-line info">[2025-01-15 10:30:15] INFO: Iniciando hardening completo del servidor...</div>
-                        <div class="log-line info">[2025-01-15 10:30:16] INFO: Ejecutando 01-setup-user.sh</div>
-                        <div class="log-line warning">[2025-01-15 10:30:17] WARNING: Configurando usuario seguro...</div>
-                        <div class="log-line success">[2025-01-15 10:30:18] INFO: ✓ Usuario admin creado con permisos sudo</div>
-                        <div class="log-line success">[2025-01-15 10:30:19] INFO: ✓ Acceso root remoto deshabilitado</div>
-                        <div class="log-line info">[2025-01-15 10:30:20] INFO: Ejecutando 02-firewall.sh</div>
-                        <div class="log-line success">[2025-01-15 10:30:21] INFO: ✓ UFW configurado con políticas restrictivas</div>
-                        <div class="log-line info">[2025-01-15 10:30:22] INFO: Ejecutando 03-fail2ban.sh</div>
-                        <div class="log-line success">[2025-01-15 10:30:25] INFO: ✓ Fail2ban instalado y configurado</div>
-                        <div class="log-line success">[2025-01-15 10:30:26] INFO: ✓ Protección SSH habilitada</div>
-                        <div class="log-line info">[2025-01-15 10:30:27] INFO: Ejecutando 04-ssh-hardening.sh</div>
-                        <div class="log-line warning">[2025-01-15 10:30:28] WARNING: Puerto SSH cambiado a 2222</div>
-                        <div class="log-line success">[2025-01-15 10:30:29] INFO: ✓ SSH hardening completado</div>
-                        <div class="log-line info">[2025-01-15 10:30:30] INFO: Ejecutando 05-selinux.sh</div>
-                        <div class="log-line success">[2025-01-15 10:30:33] INFO: ✓ SELinux configurado en modo enforcing</div>
-                        <div class="log-line final">[2025-01-15 10:30:34] SUCCESS: Hardening completo exitoso!</div>
-                        <div class="log-line warning">[2025-01-15 10:30:35] WARNING: Reinicio requerido para aplicar todos los cambios</div>
-                    </div>
-                    <div class="output-line">
-                        <span class="prompt-demo">root@server</span>
-                        <span class="path-demo">:~/linux-hardening-scripts</span>
-                        <span class="dollar-demo"># </span>
-                        <span class="cursor-demo">_</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features-section">
-            <h2>🚀 Características Principales</h2>
-            <div class="features-grid">
-                <div class="feature-item">
-                    <div class="feature-icon">🔐</div>
-                    <h4>SSH Hardening</h4>
-                    <p>Configuración segura con puerto personalizado y autenticación por clave</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">🔥</div>
-                    <h4>Firewall UFW</h4>
-                    <p>Configuración automática de reglas restrictivas y puertos esenciales</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">🚫</div>
-                    <h4>Fail2ban</h4>
-                    <p>Protección contra ataques de fuerza bruta con bloqueo automático</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">🛡️</div>
-                    <h4>SELinux</h4>
-                    <p>Políticas de seguridad avanzadas en modo enforcing</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">👤</div>
-                    <h4>Gestión de Usuarios</h4>
-                    <p>Configuración segura de usuarios sudo y deshabilitación de root</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">📊</div>
-                    <h4>Logging & Audit</h4>
-                    <p>Monitoreo completo y registro de eventos de seguridad</p>
                 </div>
             </div>
         </section>
 
         <!-- Project Image -->
-        <section class="project-preview">
-            <div class="preview-header">
-                <h2>📸 Vista del Proyecto Original</h2>
-                <p>Interfaz de terminal del proyecto desarrollado en Code Society</p>
+        <section class="terminal-frame">
+            <div class="frame-header">
+                <div class="frame-controls">
+                    <span class="control red"></span>
+                    <span class="control yellow"></span>
+                    <span class="control green"></span>
+                </div>
+                <div class="frame-title">project-preview.sh - Vista del Proyecto Original</div>
             </div>
-            <div class="preview-container">
-                <img src="./assets/9b0e3126-7453-4913-976f-64e0bb27d2a5.png" alt="Linux Hardening Scripts Interface" class="preview-image">
-                <div class="preview-overlay">
-                    <div class="play-button">👁️</div>
+            <div class="frame-content">
+                <div class="project-preview">
+                    <h2>📸 Interfaz Original del Proyecto</h2>
+                    <p>Captura de pantalla del menú terminal desarrollado en Code Society</p>
+                    <div class="preview-container">
+                        <img src="./assets/9b0e3126-7453-4913-976f-64e0bb27d2a5.png" alt="Linux Hardening Suite Interface" class="preview-image">
+                        <div class="preview-overlay">
+                            <div class="play-button">👁️</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Links and Resources Section -->
+        <section id="links" class="terminal-frame">
+            <div class="frame-header">
+                <div class="frame-controls">
+                    <span class="control red"></span>
+                    <span class="control yellow"></span>
+                    <span class="control green"></span>
+                </div>
+                <div class="frame-title">resources.sh - Enlaces y Recursos</div>
+            </div>
+            <div class="frame-content">
+                <div class="resources-grid">
+                    <div class="resource-card github-repo">
+                        <div class="resource-icon">🔗</div>
+                        <h3>Repositorio Principal</h3>
+                        <p>Código fuente completo del proyecto</p>
+                        <a href="https://github.com/ZelmarMohozzo/linux-hardening-suite" class="resource-link" target="_blank">
+                            github.com/ZelmarMohozzo/linux-hardening-suite
+                        </a>
+                    </div>
+
+                    <div class="resource-card github-profile">
+                        <div class="resource-icon">🧠</div>
+                        <h3>Perfil GitHub</h3>
+                        <p>Otros proyectos y contribuciones</p>
+                        <a href="https://github.com/ZelmarMohozzo" class="resource-link" target="_blank">
+                            github.com/ZelmarMohozzo
+                        </a>
+                    </div>
+
+                    <div class="resource-card portfolio">
+                        <div class="resource-icon">🌐</div>
+                        <h3>Portafolio Personal</h3>
+                        <p>Sitio web completo con todos mis proyectos</p>
+                        <a href="https://www.example.com" class="resource-link" target="_blank">
+                            www.example.com
+                        </a>
+                    </div>
+
+                    <div class="resource-card code-society">
+                        <div class="resource-icon">🧪</div>
+                        <h3>Code Society</h3>
+                        <p>Organización donde se desarrolló este proyecto</p>
+                        <a href="https://www.codesociety.dev" class="resource-link" target="_blank">
+                            www.codesociety.dev
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -440,25 +530,27 @@ exit 0</code>
 
     <!-- Footer -->
     <footer class="terminal-footer">
-        <div class="footer-content">
-            <div class="footer-terminal">
-                <div class="footer-prompt">
-                    <span class="prompt">zelmar@security</span>
-                    <span class="path">:~/contact</span>
-                    <span class="dollar">$</span>
-                    <span class="command">cat README.md</span>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-terminal">
+                    <div class="footer-prompt">
+                        <span class="prompt">zelmar@security</span>
+                        <span class="path">:~/contact</span>
+                        <span class="dollar">$</span>
+                        <span class="command">cat README.md</span>
+                    </div>
+                    <div class="footer-output">
+                        <p># Contacto y Información</p>
+                        <p>**Autor:** Zelmar Mohozzo</p>
+                        <p>**Especialidad:** Ciberseguridad & Desarrollo</p>
+                        <p>**Organización:** Code Society (Proyectos Internos)</p>
+                        <p>**GitHub:** [ZelmarMohozzo](https://github.com/ZelmarMohozzo)</p>
+                        <p>**Web:** [www.example.com](https://www.example.com)</p>
+                    </div>
                 </div>
-                <div class="footer-output">
-                    <p># Contacto</p>
-                    <p>**Autor:** Zelmar Mohozzo</p>
-                    <p>**Especialidad:** Ciberseguridad & Desarrollo</p>
-                    <p>**Organización:** Code Society (Proyectos Internos)</p>
-                    <p>**GitHub:** [ZelmarMohozzo](https://github.com/ZelmarMohozzo)</p>
-                    <p>**Web:** [www.example.com](https://www.example.com)</p>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Zelmar Mohozzo | Desarrollado para Code Society</p>
                 </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Zelmar Mohozzo | Desarrollado para Code Society</p>
             </div>
         </div>
     </footer>
