@@ -13,5 +13,5 @@ https://sr-haze-hardening.netlify.app/
 
 🔗 Repositorio: [github.com/ZelmarMohozzo/linux-hardening-suite](https://github.com/ZelmarMohozzo/linux-hardening-suite)
 
-🌐 Más proyectos en: ([http://www.example.com](https://sr-haze-hardening.netlify.app/))
+🌐 Más proyectos en: [https://sr-haze-hardening.netlify.app/](https://sr-haze-hardening.netlify.app/)
 
