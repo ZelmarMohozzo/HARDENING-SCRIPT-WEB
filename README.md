@@ -1,4 +1,4 @@
-# 🛡️ Linux Hardening Suite!!
+# 🛡️ Linux Hardening Suite!!!
 
 Scripts automatizados para aplicar hardening en servidores Linux siguiendo buenas prácticas de seguridad.
 
